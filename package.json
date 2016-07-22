@@ -1,0 +1,32 @@
+{
+  "name": "pokego-scan",
+  "version": "0.1.3",
+  "description": "Scan pokemon through PokeVision's API",
+  "homepage": "https://github.com/dgoguerra/pokego-scan#readme",
+  "author": "Diego Guerra <dgoguerra.or@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgoguerra/pokego-scan.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dgoguerra/pokego-scan/issues"
+  },
+  "keywords": [
+    "pokemon go",
+    "pokemon",
+    "pokevision",
+    "pogo",
+    "api"
+  ],
+  "bin": {
+    "pokego-scan": "cli.js"
+  },
+  "dependencies": {
+    "async": "^2.0.0",
+    "debug": "^2.2.0",
+    "geolib": "^2.0.21",
+    "is-function": "^1.0.1",
+    "minimist": "^1.2.0",
+    "cloudscraper": "^1.3.0"
+  }
+}
